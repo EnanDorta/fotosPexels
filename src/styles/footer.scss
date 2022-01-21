@@ -1,0 +1,20 @@
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E6E3DE;
+  padding: 3px;
+}
+footer p{
+  font-size: 20px;
+  background-color: #E6E3DE;
+}
+footer a{
+  background-color: #E6E3DE;
+  text-decoration: none;
+  color: black;
+  &:hover{
+    font-size: 20px;
+    color: #666563;
+  }
+}
