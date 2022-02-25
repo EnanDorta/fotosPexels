@@ -21,7 +21,6 @@ export function Main(){
     api.get('people')
     .then(response => setPhotos(response.data.photos))
   }, [])
-console.log(photos)
   return(
     <main>
       {photos.map(photo =>{
