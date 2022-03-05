@@ -7,6 +7,7 @@ interface PhotosCardprops{
     id: string,
     src:{
       small?: string,
+      medium?: string,
       original?: string, 
   }
  }
@@ -16,7 +17,7 @@ export function Card(props: PhotosCardprops){
   return(
     <div className="container" key={props.photos.id}>
       <div className="wrapper">
-        <img src={props.photos.src.small} alt={props.photos.alt} className="img" />
+        <img src={props.photos.src.medium} alt={props.photos.alt} />
         </div>
       <p>{props.photos.alt}</p>
     </div>
