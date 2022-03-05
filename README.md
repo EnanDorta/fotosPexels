@@ -20,8 +20,9 @@
  Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
-- SASS
+- SCSS
 - REACT 
+- JAVASCRIPT
 - TYPESCRIPT
 
 
